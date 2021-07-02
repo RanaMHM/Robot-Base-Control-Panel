@@ -1,0 +1,62 @@
+body{
+  background-image: url("Background.jpg");
+}
+h1{
+    color: aliceblue;
+}
+p{
+  text-indent: 2px;
+}
+.right{
+  margin-left: 10px;
+}
+.left{
+  margin-right: 10px;
+}
+.btn-morph {
+  width: 100px;
+  height: 60px;
+  background-color: #dddbeb;
+  border-radius: 60px;
+  color: rgb(14, 11, 11);
+  position: relative;
+  overflow: hidden; 
+                   
+  transition: width 0.3s ease-in;
+}
+.btn-morph:hover {
+  width: 100px;
+}
+.stop{
+  width: 100px;
+  height: 60px;
+  background-color: #2e31cf;
+  background-attachment:local;
+  border-radius: 60px;
+  color: rgb(224, 214, 214);
+  position: relative;
+  overflow: hidden;                
+  transition: width 0.3s ease-in;
+}
+.button:hover {
+  background-color: #3a5bbe;
+}
+
+.button:active {
+background-color: rgb(248, 10, 10);
+box-shadow: 0 5px rgb(110, 25, 3);
+transform: translateY(4px);
+}
+
+.bt{
+  
+  box-shadow: 0 5px rgb(66, 68, 68);
+  transform: translateY(4px);
+  
+}
+.btt:active {
+  background-color: rgb(105, 102, 102);
+  
+  transform: translateY(4px);
+  }
+ 
